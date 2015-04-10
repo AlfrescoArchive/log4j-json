@@ -6,7 +6,13 @@ Author: Steve Rigby
 This project provides the capability for Alfresco, Share and Solr logs to be output in json 
 format for easy consumption by ELK.
 
-The add-on is packaged as a single JAR file for easy installation.
+The add-on is packaged as an AMP file for easy installation.
+
+To build:
+Check out the project, then zip the log4j-json directory.
+Rename the resultant .zip file to .amp.
+Deploy to a war file using the amp deployment process - see:
+http://docs.alfresco.com/5.0/concepts/dev-extensions-modules-intro.html
 
 To use: 
 
